@@ -1,0 +1,77 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Mudança de fonte */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Estilo do header */
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #708090;
+    height: 8rem;
+    color: #000080;
+}
+
+/* Estilo da primeira div */
+.primeira {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    margin: 2rem auto;
+}
+
+.primeira img {
+    width:  30rem;
+}
+
+.primeira p {
+    max-width: 400px;
+}
+
+/* Estilo da segunda div */
+.segunda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #C0C0C0;
+    height: 25rem;
+    margin: 2rem auto;
+    padding: 1rem;
+    justify-content: space-evenly;
+}
+
+.segunda img {
+    width: 30rem;
+    height: 20rem;
+
+}
+
+.segunda p {
+    max-width: 200px;
+}
+
+/* Estilo da terceira div */
+.terceira {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem auto;
+    gap: 10rem;
+}
+
+.terceira img {
+    width: 70rem;
+    height: 50rem;
+    gap: 1rem;
+}
